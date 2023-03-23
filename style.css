@@ -9,7 +9,7 @@
 .container {
     height: 100vh;
     padding: 30px;
-    background-color: hsl(0, 69%, 94%);
+    background-color: hsl(0, 60%, 93%);
     display: flex;
     justify-content: center;
 }
@@ -20,13 +20,12 @@
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    background-color: #F9F5EB;
+    background-color:#F0EEED;
     padding: 10px;
-    color: #4E6E81;
+    color: #365b71;
     font-size: 17px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(151, 112, 112, 0.199);
-    
 }
 
 .title-form {
@@ -42,7 +41,8 @@ input {
     padding: 4px;
     margin: 6px;
     border-radius: 5px;
-
+    background-color: #79b2d34a;
+    color: rgb(94, 92, 92);
 }
 
 .login {
@@ -52,8 +52,18 @@ input {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    background-color: #bddcef;
+    color: #78a5c0;
+    border: 1px solid black;
+    box-shadow: 0 0 10px rgb(171, 220, 223);
 }
 
-.login:hover {
-    background-color: aliceblue;
+.password {
+    text-decoration: none;
+    color: #7babc7;
+}
+
+
+input:hover {
+    background-color: rgb(242, 249, 255);
 }
