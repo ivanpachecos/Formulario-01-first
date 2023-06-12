@@ -1,44 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script type="module" src="./main.mjs"></script>
-</head>
-
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="form">
-            <div class="title-form">
-                <h2>Formulario</h2>
-                <p class="distance">Ingrese con su e-mail y contraseña segura</p>
-            </div>
-            <div class="emai">
-                <label for="emai">Email</label>
-                <input type="text" id="emai" name="email">
-            </div>
-            <div class="Username">
-                <label for="Username">Username</label>
-                <input type="text" id="Username" name="password" required>
-            </div>
-            <div class="pasword">
-                <label for="pasword">Pasword</label>
-                <input type="text" required id="pasword" name="password">
-            </div>
-            <div class="enlace-forget-pasword">
-                <a href="#" class="password">Forget password?</a>
-            </div>
-            <label for="checkbox" class="checkbox-label">
-                <input type="checkbox" id="checkbox" required>
-                <span>Acepto las condiciones y avisos legales</span>
-            </label>
-            <button type="submit" class="login">Login</button>
-        </div>
-    </div>
-</body>
+      <h1>Regístrate</h1>
+      <form id="form">
 
+        <div id="imputDate">
+          <label for="nameUser"></label>
+          <input type="text" id="nameUser" name="nameUser" placeholder="Nombre">
+        </div>
+
+        <div id="imputDate">
+          <label for="lastName"></label>
+          <input type="text" id="lastName" name="lastName" placeholder="Apellido">
+        </div>
+
+        <div id="imputDate">
+          <label for="mail"></label>
+          <input type="text" id="mail" name="mail" placeholder="E-mial">
+        </div>
+
+        <div id="imputDate">
+          <label for="password"></label>
+          <input type="text" id="password" name="password" placeholder="Contrasña">
+        </div>
+
+        <button type="submit">Regístrate</button>
+
+      </form>
+    </div>
+  </body>
 </html>
