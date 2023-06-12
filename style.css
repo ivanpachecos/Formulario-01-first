@@ -1,0 +1,6 @@
+.container {
+  width: 600px;
+  font-size: 1rem;
+  border: 2px solid rgb(156, 155, 155);
+  padding: 2rem;
+}
